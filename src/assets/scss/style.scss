@@ -1,0 +1,20 @@
+/*!
+ * Bootstrap v4.0.0-beta (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "common/fonts";
+@import "common/variables";
+
+#lp-malik {
+  @import "bootstrap/bootstrap";
+  @import "common/bootstrap"; // fix
+  @import "common/global";
+
+  /*@import "components/button";*/
+  /*@import "components/form";*/
+
+  @import "views/_sections";
+}
